@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Hunger </title>
+    <link rel="stylesheet" href="zh.css">
+    <script defer src="zh.js"></script>
+</head>
+<style>
+    body {
+        background-color: lightblue;
+    }
+</style>
+<body>
+    <div id="food-schemes" class="content-section">
+        <h1>Food Schemes</h1>
+        <label for="state-filter">Filter by State:</label>
+        <select id="state-filter">
+            <option value="">--select please</option>
+            <option value="central">Central Government Schemes</option>
+            <option value="madhya-pradesh">Madhya Pradesh</option>
+            <option value="ngo">NGO</option>
+            <option value="social-welfare">Social Welfare</option>
+        </select>
+        <div id="scheme-list" class="scheme-list"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+div {
+  
+    background-color: lightgrey;
+      width: 500px;
+      border: 15px solid rgb(0, 43, 128);
+      padding: 50px;
+      margin: 50px;
+    }
